@@ -1,17 +1,7 @@
 #
-# Copyright (C) 2020 Android Open Source Project
+# Copyright (C) 2018-2022 ArrowOS
 #
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-# http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
+# SPDX-License-Identifier: Apache-2.0
 #
 
 # Inherit from those products. Most specific first.
@@ -38,7 +28,7 @@ DEVICE_MAINTAINER := sarthakroy2002
 $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 
 # Build info
-BUILD_FINGERPRINT := "google/coral/coral:12/SQ1A.220105.002/7961164:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:12/SQ1A.220205.002/8010174:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=RMX2020 \
     PRODUCT_NAME=RMX2020 \

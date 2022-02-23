@@ -30,11 +30,13 @@ dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5
 dalvik.vm.dex2oat-threads=6
 
 # Display
-debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=0
 
 # Fingerprint
 fingerprint.nocleanup=true
+
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
 
 # Iorap
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
